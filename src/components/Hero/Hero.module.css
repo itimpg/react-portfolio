@@ -30,6 +30,10 @@
                 & .text_4 {
                     font-size: 16px;
                     margin-top: 25px;
+
+                    & li{
+                        list-style: none;
+                    }
                 }
 
                 & .hero_social {
@@ -53,7 +57,7 @@
                 width: 300px;
                 height: 300px;
                 border-radius: 100%;
-                background-image: url('https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                background-image: url('https://media.licdn.com/dms/image/C5103AQF9gWhHnIQNlA/profile-displayphoto-shrink_200_200/0/1516885613437?e=1714608000&v=beta&t=JoJ0H64hBLD8YdayemW-nH5NW-on4AR-i55CThWCnV0');
                 background-size: cover;
                 background-position: center;
                 margin-right: 120px;

@@ -11,21 +11,35 @@ function Hero() {
                 <div className={styles.hero_con}>
                     <div className={styles.hero_info}>
                         <p className={styles.text_1}>Hi, it's me</p>
-                        <h3 className={styles.text_2}>John Doe</h3>
+                        <h3 className={styles.text_2}>Chatas Chairin</h3>
                         <p className={styles.text_3}>
                             <span style={{ marginRight: '10px' }}>I'm a</span>
                             <TypeAnimation
                                 sequence={[
-                                    'Front-end Developer',
+                                    'React Developer',
                                     1000,
-                                    'Web Developer',
+                                    'C# Developer',
+                                    1000,
+                                    'Full Stack Developer',
+                                    1000,
+                                    'Mobile Developer',
                                     1000
                                 ]}
                                 speed={50}
                                 repeat={Infinity}
                             />
                         </p>
-                        <p className={styles.text_4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ac sem non consectetur. Aenean fermentum, ipsum quis imperdiet semper, purus mauris ullamcorper ante, non pulvinar magna dui nec elit. Etiam tincidunt massa in neque finibus tempus. Morbi nisi nisl, imperdiet sed quam at, consequat porttitor augue. Vivamus tempor nisi et justo sodales ullamcorper. Phasellus hendrerit arcu non arcu pulvinar, tincidunt viverra purus faucibus.</p>
+                        <ul className={styles.text_4}>
+                            <li>
+                                A .net developer specialist with more than 10 years of professional experiences in software development. Expert and highly familiar with a variety of software platforms
+                            </li>
+                            <li>
+                                Hungry to learn new tools and technologies to craft the good software
+                            </li>
+                            <li>
+                                Gamer habits: team player, stress management, quick response, challenger, good strategy and never give up
+                            </li>
+                        </ul>
                         <ul className={styles.hero_social}>
                             <li><a href='#'><FaGithub /></a></li>
                             <li><a href='#'><FaLinkedin /></a></li>
